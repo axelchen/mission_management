@@ -1,0 +1,11 @@
+<h1>新增任務</h1>
+<%= form_for(@tasks) do |form| %>
+  <%= form.label :title,"任務名稱" %>
+  <%= form.text_field :title %> <br/>
+
+  <%= form.label :title,"任務內容" %>
+  <%= form.text_area :content %> <br/>
+  
+  <%= form.submit %>
+<% end %>
+<%= link_to "回到任務列表",tasks_path %>
