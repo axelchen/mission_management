@@ -1,5 +1,12 @@
-@import 'bootstrap/scss/bootstrap'
+@import 'bootstrap/scss/bootstrap';
 
+body {
+	background: #AA4847;
+}
+
+.review_title {
+	margin: 0 0 20px 0;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
