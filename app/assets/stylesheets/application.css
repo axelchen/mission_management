@@ -1,11 +1,11 @@
 @import 'bootstrap/scss/bootstrap';
 
 body {
-	background: #AA4847;
+  background: #AA4847;
 }
 
 .review_title {
-	margin: 0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 /*
